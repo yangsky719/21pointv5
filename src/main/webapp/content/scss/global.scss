@@ -1,5 +1,74 @@
 @import 'bootstrap-variables';
 
+/* ==========================================================================
+custom styles for 21-Points Health
+==========================================================================*/
+
+.jh-card {
+    border: none !important;
+}
+
+.jh-navbar {
+    background-color: #009688 !important;
+}
+
+.blockquote {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem !important;
+    font-weight: 100;
+    border-left: 0.25rem solid #eceeef;
+}
+
+a {
+    font-weight: normal !important;
+}
+
+.truncate {
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    &.cal-day-notes {
+        width: 150px;
+    }
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    color: #666;
+    background: #eee;
+    border-top: 1px solid silver;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: center;
+    z-index: 2;
+    font-size: 0.9em;
+    p {
+        margin-bottom: 7px;
+    }
+}
+
+.thread-dump-modal-lock {
+    max-width: 450px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Override Bootstrap's default vertical-align: top */
+
+.table {
+    th,
+    td {
+        vertical-align: middle !important;
+    }
+}
+
 /* ==============================================================
 Bootstrap tweaks
 ===============================================================*/
@@ -25,6 +94,7 @@ a:hover {
 /* ==========================================================================
 Browser Upgrade Prompt
 ========================================================================== */
+
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
@@ -37,6 +107,7 @@ Generic styles
 ========================================================================== */
 
 /* Error highlight on input fields */
+
 .ng-valid[required],
 .ng-valid.required {
     border-left: 5px solid green;
@@ -88,6 +159,7 @@ Generic styles
 /* ==========================================================================
 make sure browsers use the pointer cursor for anchors, even with no href
 ========================================================================== */
+
 a:hover {
     cursor: pointer;
 }
@@ -100,6 +172,7 @@ a:hover {
 /* ==========================================================================
 Custom alerts for notification
 ========================================================================== */
+
 .alerts {
     .alert {
         text-overflow: ellipsis;
@@ -145,8 +218,9 @@ entity tables helpers
 
 /* Remove Bootstrap padding from the element
 http://stackoverflow.com/questions/19562903/remove-padding-from-columns-in-bootstrap-3 */
+
 @mixin no-padding($side) {
-    @if $side == 'all' {
+    @if $side== 'all' {
         .no-padding {
             padding: 0 !important;
         }
@@ -156,6 +230,7 @@ http://stackoverflow.com/questions/19562903/remove-padding-from-columns-in-boots
         }
     }
 }
+
 @include no-padding('left');
 @include no-padding('right');
 @include no-padding('top');
@@ -164,12 +239,14 @@ http://stackoverflow.com/questions/19562903/remove-padding-from-columns-in-boots
 
 /* bootstrap 3 input-group 100% width
 http://stackoverflow.com/questions/23436430/bootstrap-3-input-group-100-width */
+
 .width-min {
     width: 1% !important;
 }
 
 /* Makes toolbar not wrap on smaller screens
 http://www.sketchingwithcss.com/samplechapter/cheatsheet.html#right */
+
 .flex-btn-group-container {
     display: -webkit-flex;
     display: flex;
@@ -182,6 +259,7 @@ http://www.sketchingwithcss.com/samplechapter/cheatsheet.html#right */
 /* ==========================================================================
 entity detail page css
 ========================================================================== */
+
 .row.jh-entity-details > {
     dd {
         margin-bottom: 15px;
@@ -204,6 +282,7 @@ entity detail page css
 /* ==========================================================================
 ui bootstrap tweaks
 ========================================================================== */
+
 .nav,
 .pagination,
 .carousel,

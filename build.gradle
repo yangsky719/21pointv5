@@ -150,6 +150,7 @@ dependencies {
     compile "javax.cache:cache-api"
     compile "org.hibernate:hibernate-core"
     compile "com.zaxxer:HikariCP"
+    compile "com.h2database:h2"
     compile "org.apache.commons:commons-lang3"
     compile "commons-io:commons-io"
     compile "javax.transaction:javax.transaction-api"
