@@ -50,7 +50,7 @@ spring:
             hibernate.cache.region.factory_class: io.github.jhipster.config.jcache.BeanClassLoaderAwareJCacheRegionFactory
     data:
         elasticsearch:
-            cluster-name:
+            cluster-name: elasticsearch
             cluster-nodes: localhost:9300
             properties:
                 path:

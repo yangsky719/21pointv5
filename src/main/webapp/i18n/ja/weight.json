@@ -1,0 +1,25 @@
+
+{
+    "twentyOnePointsApp": {
+        "weight" : {
+            "home": {
+                "title": "Weights",
+                "createLabel": "Weight を追加",
+                "createOrEditLabel": "Weightを追加または編集",
+                "search": "Search for Weight"
+            },
+            "created": "A new Weight is created with identifier {{ param }}",
+            "updated": "A Weight is updated with identifier {{ param }}",
+            "deleted": "A Weight is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Weight {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Weight"
+            },
+            "datetime": "Datetime",
+            "weight": "Weight",
+            "user": "User"
+        }
+    }
+}

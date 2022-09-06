@@ -1,0 +1,25 @@
+
+{
+    "twentyOnePointsApp": {
+        "preferences" : {
+            "home": {
+                "title": "Preferences",
+                "createLabel": "Preferences を追加",
+                "createOrEditLabel": "Preferencesを追加または編集",
+                "search": "Search for Preferences"
+            },
+            "created": "A new Preferences is created with identifier {{ param }}",
+            "updated": "A Preferences is updated with identifier {{ param }}",
+            "deleted": "A Preferences is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Preferences {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Preferences"
+            },
+            "weeklyGoal": "Weekly Goal",
+            "weightUnits": "Weight Units",
+            "user": "User"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+
+{
+    "twentyOnePointsApp": {
+        "points" : {
+            "home": {
+                "title": "Points",
+                "createLabel": "Points を追加",
+                "createOrEditLabel": "Pointsを追加または編集",
+                "search": "Search for Points"
+            },
+            "created": "A new Points is created with identifier {{ param }}",
+            "updated": "A Points is updated with identifier {{ param }}",
+            "deleted": "A Points is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Points {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Points"
+            },
+            "date": "Date",
+            "exercise": "Exercise",
+            "meals": "Meals",
+            "alcohol": "Alcohol",
+            "notes": "Notes",
+            "user": "User"
+        }
+    }
+}

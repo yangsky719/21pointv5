@@ -1,0 +1,26 @@
+
+{
+    "twentyOnePointsApp": {
+        "bloodPressure" : {
+            "home": {
+                "title": "BloodPressures",
+                "createLabel": "Blood Pressure を追加",
+                "createOrEditLabel": "Blood Pressureを追加または編集",
+                "search": "Search for Blood Pressure"
+            },
+            "created": "A new Blood Pressure is created with identifier {{ param }}",
+            "updated": "A Blood Pressure is updated with identifier {{ param }}",
+            "deleted": "A Blood Pressure is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Blood Pressure {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Blood Pressure"
+            },
+            "datetime": "Datetime",
+            "systolic": "Systolic",
+            "diastolic": "Diastolic",
+            "user": "User"
+        }
+    }
+}
